@@ -1,0 +1,68 @@
+<section class="container p-5" id="portfolio">
+    <h2 class="text-center">Mis Proyectos</h2>
+    <hr class="mb-5" />
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="{{url_for('static', filename='img/todo-list.png')}}" alt="Proyecto ToDoList"
+                    class="d-block mx-lg-auto img-fluid" />
+                <div class="card-body">
+                    <h5 class="card-title">Lista de Tareas - Flask</h5>
+                    <p class="card-text">Gestor de lista de tareas desarrollado con Flask y base de datos relacional.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+                    <a href="https://github.com/Alvaro0219/ToDoList" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="{{url_for('static', filename = 'img/blog-post.png')}}" alt="Proyecto BlogPost"
+                    class="d-block mx-lg-auto img-fluid" />
+                <div class="card-body">
+                    <h5 class="card-title">BlogPosts - Flask</h5>
+                    <p class="card-text">"Blog Spots" es una plataforma de blogs desarrollada con Flask y SQLAlchemy.
+                        Permite a los usuarios registrarse, iniciar sesión, crear, editar y eliminar publicaciones.
+                        La interfaz utiliza HTML, CSS y Bootstrap, gestionados por Jinja2. SQLite se emplea como base de
+                        datos en el entorno de desarrollo.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+                    <a href="https://github.com/Alvaro0219/blog-post" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="{{url_for('static', filename = 'img/api-contact.png')}}" alt="Proyecto ApiRest"
+                    class="d-block mx-lg-auto img-fluid" />
+                <div class="card-body">
+                    <h5 class="card-title">API Contactos - Flask</h5>
+                    <p class="card-text">La aplicación de Contactos, creada con Flask y SQLAlchemy, ofrece una API REST
+                        para gestionar contactos con operaciones CRUD.
+                        Utiliza Flask como framework web y SQLAlchemy para la interacción con una base de datos SQLite.
+                        Permite la creación, lectura, actualización y eliminación de contactos a través de endpoints
+                        dedicados.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+                    <a href="https://github.com/Alvaro0219/23-ApiContact" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="{{url_for('static', filename = 'img/sistem-pharm.png')}}" alt="Proyecto PharmSystem"
+                    class="d-block mx-lg-auto img-fluid" />
+                <div class="card-body">
+                    <h5 class="card-title">Sistema farmaceutico - Python</h5>
+                    <p class="card-text">La aplicación "Sistema de Farmacia" utiliza PyQt5 para crear una interfaz gráfica intuitiva. 
+                        Permite gestionar productos farmacéuticos mediante funciones como registro, actualización y eliminación en una base de datos SQLite. 
+                        Destaca visualmente la importancia de las fechas de vencimiento con colores diferenciados. La interfaz incluye pestañas para facilitar la navegación entre las distintas funciones, ofreciendo una experiencia eficiente en la gestión del inventario.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+                    <a href="https://github.com/Alvaro0219/Sistema-farmacia" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
