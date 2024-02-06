@@ -6,7 +6,7 @@
                 <p class="col-lg-10 fs-4">Si estás interesado en trabajar conmigo o tienes alguna pregunta, no dudes en contactarme a través del formulario o vía email. Estaré encantado de escuchar lo que tienes para decir. ¡Gracias por visitar mi sitio!</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-6">
-                <form class="p-4 p-md-5 border rounded-3 bg-white">
+                <form class="p-4 p-md-5 border rounded-3 bg-white" method="post" action="{{ url_for('send_mail') }}">
                     <fieldset>
                         <legend class="mb-3">Formulario de Contacto</legend>
                         <div class="mb-3">
