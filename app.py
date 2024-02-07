@@ -3,6 +3,11 @@ from flask_mail import Mail, Message
 
 app = Flask(__name__)
 
+app.config.from_mapping(
+    DEBUG = False,
+    SECRET_KEY = 'dev'
+)
+
 #Configuracion de envio de correo
 app.config['MAIL_SERVER']='sandbox.smtp.mailtrap.io'
 app.config['MAIL_PORT'] = 2525
